@@ -1,0 +1,28 @@
+{
+  "name": "adenine",
+  "description": "The Adenine dev-tooling family for Claude Code.",
+  "owner": {
+    "name": "adenineio",
+    "url": "https://github.com/adenineio"
+  },
+  "metadata": {
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "karyo",
+      "source": {
+        "source": "github",
+        "repo": "adenineio/karyo"
+      },
+      "description": "Visual docs where the code describes itself: a local web view of your project's Karyo model and explainers, the karyo CLI, the karyo-explain and docket skills, the Karyo MCP server and Jarvis voice mode.",
+      "category": "documentation",
+      "tags": [
+        "docs",
+        "visualization",
+        "architecture",
+        "explainers"
+      ]
+    }
+  ]
+}
